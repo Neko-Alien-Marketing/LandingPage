@@ -13,9 +13,19 @@ h1{
 }
 
 
-
-.letra
+.contact
 {
     font-family: 'Modak', cursive;
-    color: cadetblue;
+    color: orange;
+    font-size: 30px;
+    white-space: normal;
+    
 }
+
+.text
+{
+    font-family: 'Modak',;
+    color: black;
+    font-size: 13px;
+}
+
