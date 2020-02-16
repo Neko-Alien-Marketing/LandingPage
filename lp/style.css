@@ -30,7 +30,7 @@ h1{
 }
 
 .parallax{
-    background-image: url(banner.jfif);
+    background-image: url(media/web/banner.jfif);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,9 +40,28 @@ h1{
     
 }
 
-.img_l{
-    background-repeat: no-repeat;
-    
-    width: 100px;
-    height: 20px;
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("media/web/background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
