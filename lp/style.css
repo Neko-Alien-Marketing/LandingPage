@@ -1,17 +1,7 @@
-
 h1{
     font-family: 'Modak', cursive;
     color: orange;
 }
-
-.title
-{
-    font-family: 'Modak', cursive;
-    color: orange;
-    font-size: 100px;
-    text-align: center;
-}
-
 
 .contact
 {
@@ -22,6 +12,17 @@ h1{
     
 }
 
+.contact-bg{
+    background-color: steelblue;
+    margin: 2vh 10vw 0px 10vw;
+    align-self: center;
+}
+
+.contact-it{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .text
 {
     font-family: 'Modak',;
@@ -30,7 +31,7 @@ h1{
 }
 
 .parallax{
-    background-image: url(media/web/banner.jfif);
+    background-image: url(media/web/banner.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,12 +41,25 @@ h1{
     
 }
 
+.title{
+    background-image: url(media/web/title.png);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100%;
+    height: 200px;
+    
+    margin: 20px 20px 20px 20px;
+}
+
 .footer{
     left: 0;
     bottom: 0;
     width: 100%;
     height: 200px;
-    background-color: greenyellow;
+    background-color: rebeccapurple;
     color: white;
     text-align: center;
 }
