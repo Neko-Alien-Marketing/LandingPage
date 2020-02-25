@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Tem tem is an online RPG video game for PC platform. Now aviable in Steam">
     <meta name="author" content="Crema Games">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="media/web/favicon.jfif">
     <title>Temtem · RPG</title>
 
@@ -30,23 +31,32 @@
 </head>
 
 <body>
-    <!-- Banner Image -->
-    <div class="parallax"></div>
+    <!-- Banner Image/Title/Sinopsis -->
+    <div class="banner">
+        <div class="title"></div>
+        <p class="subText" style="margin: auto">Temtem is a massively multiplayer creature-collection adventure inspired by Pokémon.</p>
+    </div>
 
     <main role="main" class="container">
 
-        <!-- Title -->
-        <div class="title">
-
-        </div>
-
-        <p class="lead" style="text-align: center">Temtem is a massively multiplayer creature-collection adventure inspired by Pokémon.</p>
-
         <!-- Video -->
         <div style="text-align:center">
-            <video width="70%" height="50%" poster="media/images/video_poster.jpg" controls>
+            <video width="70%" height="50%" style="margin-top: 20px" poster="media/images/video_poster.jpg" controls>
                 <source src="media/web/trailer.mp4" type="video/mp4">
             </video>
+        </div>
+
+        <!--Image-->
+        <div class="row">
+            <div class="column">
+                <img src="media/images/carousel_img.jpg" alt="Img1" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="media/images/carousel_img_1.jfif" alt="Img2" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="media/images/carousel_img_2.jfif" alt="Img3" style="width:100%">
+            </div>
         </div>
 
     </main><!-- /.container -->
@@ -56,7 +66,7 @@
             <h1 class="contact">Contact</h1>
             <h2 class="lead">Talk with us!</h2>
             <p class="text">In order to solve your doubts or questions, you must fill the following questionnaire so we can help you with our maximum efficiency.</p>
-            
+
             <!-- Contact information-->
             <form name="form1" method="post" action="formmail.php">
                 <!-- Name -->
@@ -64,12 +74,12 @@
                     <label class="required" for="name" style="margin: 10px 24px 0px 20px">Name:</label>
                     <input type="text" name="name" id="name" class="contact-it">
                     <span id="name_validation" class="error-message"></span>
-                    
+
                     <label class="required" for="name" style="margin: 10px 24px 0px 20px">Surname:</label>
                     <input type="text" name="name" id="name" class="contact-it">
                     <span id="name_validation" class="error-message"></span>
                 </div>
-                
+
                 <!-- Email -->
                 <div class="row">
                     <label class="required" for="email" style="margin: 10px 29px 0px 20px">Email:</label>
@@ -83,14 +93,14 @@
                     <input type="text" name="subject" id="subject" class="contact-it">
                     <span id="subject_validation" class="error-message"></span>
                 </div>
-                
+
                 <!-- Message -->
                 <div class="row">
                     <label class="required" for="email" style="margin: 10px 5px 0px 20px">Message:</label>
                     <textarea name="message" id="message" cols="45" rows="5" class="contact-it"></textarea>
                     <span id="email_validation" class="error-message"></span>
                 </div>
-                
+
                 <div>
                     <input type="submit" name="Submit" id="Submit" value="Submit">
                 </div>
