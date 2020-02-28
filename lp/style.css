@@ -12,15 +12,6 @@
     padding: 40px;
 }
 
-.robot{
-    background-image: url(media/web/robot.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    
-    height: 100%;
-}
-
 .contact-bg {
     background-color: #c14b57;
     margin: 2vh 10vw 2vh 10vw;
@@ -96,10 +87,17 @@
     margin: auto;
     width: 200px;
     height: 40px;
+    border: none;
+    border-radius: 2px;
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
 }
 
 .buyButton:hover {
     color: #FFB544;
+    border: active;
+    border-color: #FFB544;
     background-color: white;
 }
 
@@ -128,9 +126,14 @@
 }
 
 .column-robot {
+    background-image: url(media/web/robot.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: 2vw;
+    
     float: left;
-    width: 15%;
-    height: 40vh;
+    width: 10%;
 }
 
 /* Clear floats after image containers */
