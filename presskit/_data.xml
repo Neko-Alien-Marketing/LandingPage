@@ -2,10 +2,10 @@
 <!-- example file containing base tags -->
 
 <game>	
-	<title>Company Name</title>
-	<founding-date>September 1, 2010</founding-date>
-	<website>http://www.website.com/</website>
-	<based-in>Cityville, Metropolisland</based-in>
+	<title>Crema</title>
+	<founding-date>2009</founding-date>
+	<website>https://crema.gg/</website>
+	<based-in>Madrid, Spain</based-in>
 	
 	<press-contact>press-contact@company.com</press-contact>
 	<phone>+00 (1) 22 33 44 55 66</phone>
@@ -17,12 +17,12 @@
 
 	<socials>
 		<social>
-			<name>twitter.com/MyCompanyName</name>
-			<link>twitter.com/MyCompanyName</link>
+			<name>Twitter Account</name>
+			<link>https://twitter.com/playtemtem</link>
 		</social>
 		<social>
-			<name>facebook.com/MyCompanyName</name>
-			<link>facebook.com/MyCompanyName</link>
+			<name>Facebook Account</name>
+			<link>https://www.facebook.com/PlayTemtem/</link>
 		</social>
 		<social>
 			<name>Skype</name>
@@ -31,13 +31,17 @@
 	</socials>
 
 	<description>	
-		We're games studio and we make games. We're also capable of editing XML files.
+		Temtem is a massively multiplayer creature-collection adventure inspired by Pokémon.
+
+        Every kid dreams about becoming a Temtem tamer; exploring the six islands of the Airborne Archipelago, discovering new species, and making good friends along the way. Now it’s your turn to embark on an epic adventure and make those dreams come true.
 	</description>
 		
 	<histories>
 		<history>
 			<header>Early history</header>
-			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</text>
+			<text>The Airborne Archipelago are the floating islands where Temtem and humans coexist peacefully. Each island is a whole different world, but there is something we all have in common – our love for Temtem and Temtem fighting!
+
+            Intrepid tamers like yourself travel on airships to the furthest reaches of the Archipelago to find the best Temtem. Every young tamer dreams of becoming the best… But not everything is fun and peace in the islands. Behind the scenes, Clan Belsoto is weaving a dastardly conspiracy against Temtem and humans alike. You will need all the friends and your best Temtem to defeat the wicked Clan Belsoto.</text>
 		</history>
 		<history>
 			<header>After that</header>
