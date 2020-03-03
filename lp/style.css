@@ -19,8 +19,14 @@
 }
 
 .contact-it {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    width: 30%;
+    height: 30%;
+}
+
+.parameter{
+    font-size: 2vw;
 }
 
 .text {
