@@ -25,7 +25,7 @@
     height: 30%;
 }
 
-.parameter{
+.parameter {
     font-size: 2vw;
 }
 
@@ -39,9 +39,45 @@
     .subText {
         display: none;
     }
+    .buyButton {
+        font-family: 'Anton', cursive;
+        color: white;
+        background-color: #FFB544;
+        font-size: 5vh;
+        margin: auto;
+        width: 40vh;
+        height: 10vh;
+        border: none;
+        border-radius: 3px;
+        margin-top: 13vh;
+
+        box-shadow: 16px 8px 16px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
 }
 
-@media only screen and (min-width: 800px) {
+@media screen and (max-height:799px) {
+    .subText {
+        display: none;
+    }
+    .buyButton {
+        font-family: 'Anton', cursive;
+        color: white;
+        background-color: #FFB544;
+        font-size: 5vh;
+        margin: auto;
+        width: 40vh;
+        height: 10vh;
+        border: none;
+        border-radius: 3px;
+        margin-top: 13vh;
+
+        box-shadow: 16px 8px 16px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+}
+
+@media only screen and (min-width: 800px) and (min-height:800px) {
     .subText {
         font-family: 'Modak', ;
         color: white;
@@ -53,6 +89,22 @@
         width: 800px;
         height: 200px;
         display: block;
+    }
+
+    .buyButton {
+        font-family: 'Anton', cursive;
+        color: white;
+        background-color: #FFB544;
+        font-size: 2.5vh;
+        margin: auto;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 3px;
+        margin: auto;
+
+        box-shadow: 16px 8px 16px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     }
 }
 
@@ -78,20 +130,6 @@
     height: 45%;
 }
 
-.buyButton {
-    font-family: 'Anton', cursive;
-    color: white;
-    background-color: #FFB544;
-    font-size: 20px;
-    margin: auto;
-    width: 200px;
-    height: 40px;
-    border: none;
-    border-radius: 2px;
-
-    box-shadow: 16px 8px 16px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
 
 .buyButton:hover {
     color: #FFB544;
@@ -159,13 +197,11 @@
     display: inline-block;
     width: 9vw;
     height: 9vh;
-    /* background: #f1f1f1;  */
-    margin: 10px;
-    border-radius: 30%;
-    /* box-shadow: 0 5px 13px -5px #00000070; */
+    margin: 1vh;
     color: white;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 btnf:hover,
@@ -189,20 +225,22 @@ btnf:hover,
 }
 
 .videoWrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
     margin: auto;
     background-color: #351f41;
-    
+
 }
+
 .videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 90%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
     margin-left: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
