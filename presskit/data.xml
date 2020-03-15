@@ -12,44 +12,22 @@
   <!-- Google analytics ID: -->
   <analytics></analytics>
 
-  <phone></phone>
+  <phone>+34 912 43 49 02</phone>
   <address>
     <line>
-      <!-- Street -->
+      Planta 4, Oficina 3, Calle Montearagón
     </line>
     <line>
-      <!-- City -->
+      Madrid
     </line>
     <line>
-      <!-- Country -->
+      Spain
     </line>
   </address>
-
-  <socials>
-    <social>
-      <name></name>
-      <link>
-        <!-- URL starting with http or https -->
-      </link>
-    </social>
-  </socials>
 
   <description>Crema was formed in 2009 where we began developing for mobile platforms. Instant Buttons was our first app which to date has surpassed 20 million downloads. The company was then incorporated in 2012 and our focus shifted to making top quality mobile games, creating several games featured by Apple and both publicly and critically well-received.
 
 Following this mobile-oriented journey, we focused on PC and console development with Immortal Redneck being our debut title on these platforms. Temtem is our latest addition to our catalog, and with it, we’re opening up our development process by creating a successful Kickstarter campaign and involving the community during the process.</description>
-
-  <!-- Choose between a single block: -->
-  <history></history>
-
-  <!-- Or multiple blocks: -->
-  <!--
-  <histories>
-    <history>
-      <header></header>
-      <text></text>
-    </history>
-  </histories>
-  -->
 
   <trailers>
     <trailer>
@@ -59,45 +37,8 @@ Following this mobile-oriented journey, we focused on PC and console development
       <youtube>
         <!-- Video ID only, not the full URL -->
       </youtube>
-      <vimeo>
-        <!-- Video ID only, not the full URL -->
-      </vimeo>
     </trailer>
   </trailers>
-
-  <awards>
-    <award>
-      <description></description>
-      <info></info>
-    </award>
-  </awards>
-
-  <quotes>
-    <quote>
-      <description></description>
-      <name></name>
-      <website></website>
-      <link></link>
-    </quote>
-  </quotes>
-
-  <additionals>
-    <additional>
-      <title></title>
-      <description></description>
-      <link></link>
-    </additional>
-  </additionals>
-
-  <credits>
-    <credit>
-      <person></person>
-      <role></role>
-
-      <!-- Optional: -->
-      <website></website>
-    </credit>
-  </credits>
 
   <contacts>
     <contact>
