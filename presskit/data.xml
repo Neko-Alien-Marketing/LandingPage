@@ -6,7 +6,7 @@
   <founding-date>2009</founding-date>
   <website>crema.gg</website>
   <press-contact>
-    <!-- Mail address -->
+      info@cremagames.com
   </press-contact>
 
   <!-- Google analytics ID: -->
@@ -44,10 +44,28 @@ Following this mobile-oriented journey, we focused on PC and console development
 
   <contacts>
     <contact>
-      <name></name>
-      <!-- Pick one: -->
-      <mail></mail>
-      <link></link>
+      <name>Discord</name>
+      <link>https://discordapp.com/invite/temtem</link>
     </contact>
+    <contact>
+      <name>Twitter</name>
+      <link>https://twitter.com/cremagames</link>
+    </contact>
+    <contact>
+      <name>Steam</name>
+      <link>https://store.steampowered.com/developer/Crema</link>
+    </contact>
+    <contact>
+      <name>Facebook</name>
+      <link>https://www.facebook.com/CremaGamesStudios</link>
+    </contact>
+    <contact>
+      <name>Youtube</name>
+      <link>https://www.youtube.com/user/CremaGames/</link>
+    </contact>
+    <contact>
+      <name>Instagram</name>
+      <link>https://www.instagram.com/crema.games/</link> 
+     </contact>
   </contacts>
 </company>
