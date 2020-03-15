@@ -50,11 +50,12 @@ Intrepid tamers like yourself travel on airships to the furthest reaches of the 
 
 
 	<features>
-		<feature>Includes something really interesting about the game which players will love.</feature>
-		<feature>This feature line is about the 8-bit pixels that are no doubt featuring in this game.</feature>
-		<feature>Since it is unlikely that the audio isn't fucking amazing, say something about the audio, maybe?</feature>
-		<feature>Make sure to stress that everything about this game is absolutely fabulous.</feature>
-		<feature>Something to wrap up this 5-point feature list with a nice ring to it.</feature>
+		<feature>Lengthy story campaign: Journey across six vivid islands and embark on the adventure of becoming a Temtem tamer while fighting against the evil Clan Belsoto.</feature>
+		<feature>Fully online world: The days of traveling solo are over; in Temtem the world is a massively multiplayer one. Tamers from around the world can join and you will be able to see them around you, living the adventure with you and fighting to become the best Temtem tamer.</feature>
+		<feature>Co-Op Adventure: You will be able to join forces with a friend any time and work together towards your next goal. Catch new Temtem, complete a Route, or face off against a Temtem Leader; all while fighting alongside your friend in dual battles!</feature>
+		<feature>Competitively oriented gameplay: Including a pick and ban competitive mode. Start by choosing 10 Temtem and the pick and ban phase will begin. Take turns with your rival to pick your Temtem and ban theirs. When all the decisions are made and the turns are ended, you will end up with a squad of 5 Temtem and the battle will begin.</feature>
+    	<feature>Advanced character customization: Customize your character to stand out from the crowd and get new cosmetics while you battle other tamers. Pick a silly hat, a comfy sweatshirt, some pants and you’re ready to go! Or maybe you prefer to wear a full-on cosplay of your favorite Temtem?</feature>
+		<feature>Housing: Buy your own house at Atoll Row and decorate it your way. Buy new furniture, color your walls and you’ll be ready to invite your friends over!</feature>
 	</features>
 	
 	<trailers>
@@ -70,26 +71,20 @@ Intrepid tamers like yourself travel on airships to the furthest reaches of the 
 	
 	<credits>
 		<credit>
-			<person>Rami Ismail</person>
-			<role>Business &amp; Development, Vlambeer</role>
+			<person>Oriol Capdevila</person>
+			<role>Artist, Management</role>
 		</credit>
 		<credit>
-			<person>Jan Willem Nijman</person>
-			<role>Game Designer, Vlambeer</role>
+			<person>Víctor Segura</person>
+			<role>Game Designer, Programmer</role>
 		</credit>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Laia Martínez</person>
+			<role>Music, Artist, Designer</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<person>Àlex Martínez</person>
+			<role>Programmer, Freelancer</role>
 		</credit>
 	</credits>
 </game>
