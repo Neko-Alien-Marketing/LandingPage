@@ -31,11 +31,13 @@ Following this mobile-oriented journey, we focused on PC and console development
 
   <trailers>
     <trailer>
-      <name></name>
-
-      <!-- Pick one: -->
+			<name>Temtem</name>
+			<youtube>8dXB4pETtzI</youtube>
+		</trailer>
+    <trailer>
+      <name>Immortal Redneck</name>
       <youtube>
-        <!-- Video ID only, not the full URL -->
+        VGyvt1Vk5bs
       </youtube>
     </trailer>
   </trailers>
@@ -43,7 +45,6 @@ Following this mobile-oriented journey, we focused on PC and console development
   <contacts>
     <contact>
       <name></name>
-
       <!-- Pick one: -->
       <mail></mail>
       <link></link>
