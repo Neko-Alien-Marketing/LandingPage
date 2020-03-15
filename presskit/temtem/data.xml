@@ -1,52 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <game>
-	<title>Game Name</title>
-	<release-date>1 May, 2012</release-date>
-	<website>http://www.gamesite.com/</website>
+	<title>TemTem</title>
+	<release-date>January 21, 2020</release-date>
+	<website>https://playtemtem.com//</website>
 	<press-can-request-copy>TRUE</press-can-request-copy>
 
 	<platforms>
 		<platform>
-			<name>PC / Mac</name>
-			<link>http://www.gamesite.com/</link>
-		</platform>
-		<platform>
-			<name>Steam</name>
-			<link>http://www.steampowered.com/</link>
-		</platform>
-		<platform>
-			<name>Apple App Store</name>
-			<link>http://www.itunes.com/</link>
-		</platform>
+      <name>Steam</name>
+      <link>https://store.steampowered.com/app/745920/Temtem/</link>
+    </platform>
+    <platform>
+      <name>Humble Bundle</name>
+      <link>https://www.humblebundle.com/store/temtem</link>
+    </platform>
+   <platform>
+      <name>Switch</name>
+    </platform>
+    <platform>
+      <name>PS4</name>
+    </platform>
+    <platform>
+      <name>XBOX ONE</name>
+    </platform>
 	</platforms>
 	
 	<prices>
 		<price>
-			<currency>USD</currency>
-			<value>$1.99</value>
-		</price>
-		<price>
 			<currency>EUR</currency>
-			<value>€1.59</value>
-		</price>
-		<price>
-			<currency>CAD</currency>
-			<value>$1.99</value>
-		</price>				
-		<price>
-			<currency>GBP</currency>
-			<value>£1.29</value>
+			<value>€30.99</value>
 		</price>
 	</prices>
 
 	<description>
-	Hello. This is a short compilation of facts about the game. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</description>
+    Temtem is a massively multiplayer creature-collection adventure inspired by Pokémon.
+
+Every kid dreams about becoming a Temtem tamer; exploring the six islands of the Airborne Archipelago, discovering new species, and making good friends along the way. Now it’s your turn to embark on an epic adventure and make those dreams come true.
+
+Catch new Temtem on Omninesia’s floating islands, battle other tamers on the sandy beaches of Deniz or trade with your friends in Tucma’s ash-covered fields. Defeat the ever-annoying Clan Belsoto and end its plot to rule over the Archipelago, beat all eight Dojo Leaders, and become the ultimate Temtem tamer!
+  </description>
+
 	
 	<history>
-	Since we're an indie developer, we want a history to our game. This paragraph will explain this history in short. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</history>
+	The Airborne Archipelago are the floating islands where Temtem and humans coexist peacefully. Each island is a whole different world, but there is something we all have in common – our love for Temtem and Temtem fighting!
+
+Intrepid tamers like yourself travel on airships to the furthest reaches of the Archipelago to find the best Temtem. Every young tamer dreams of becoming the best… But not everything is fun and peace in the islands. Behind the scenes, Clan Belsoto is weaving a dastardly conspiracy against Temtem and humans alike. You will need all the friends and your best Temtem to defeat the wicked Clan Belsoto.
+  </history>
+
 
 	<features>
 		<feature>Includes something really interesting about the game which players will love.</feature>
