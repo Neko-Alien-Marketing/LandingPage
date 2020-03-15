@@ -130,26 +130,20 @@ Intrepid tamers like yourself travel on airships to the furthest reaches of the 
 	
 	<credits>
 		<credit>
-			<person>Rami Ismail</person>
-			<role>Business &amp; Development, Vlambeer</role>
+			<person>Oriol Capdevila</person>
+			<role>Artist, Management</role>
 		</credit>
 		<credit>
-			<person>Jan Willem Nijman</person>
-			<role>Game Designer, Vlambeer</role>
+			<person>Víctor Segura</person>
+			<role>Game Designer, Programmer</role>
 		</credit>
 		<credit>
-			<person>John Doe</person>
-			<role>Artist, Freelancer</role>
+			<person>Laia Martínez</person>
+			<role>Music, Artist, Designer</role>
 		</credit>
 		<credit>
-			<person>Oliver Twist</person>
-			<website>www.olivertwist.com</website>
-			<role>Artist, Freelancer</role>
-		</credit>
-		<credit>
-			<person>Jane Doette</person>
-			<website>www.olivertwist.com</website>
-			<role>Music, Freelancer</role>
+			<person>Àlex Martínez</person>
+			<role>Programmer, Freelancer</role>
 		</credit>
 	</credits>
 </game>
