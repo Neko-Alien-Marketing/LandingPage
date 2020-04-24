@@ -4,9 +4,20 @@ ul {
     justify-content: center;
 }
 
+.parentTop{
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+
 .imageCrema{
     background-image: url("media/web/crema_logo.jpg");
-    background-size: cover;
+    background-size: contain;
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    left: 0px;
+    
 }
 
 .topnav{
@@ -15,8 +26,12 @@ ul {
     background-repeat: repeat-x;
     background-size: 100% 100%;
     overflow: hidden;
-    height: 10vh;
+    height: 96px;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
+
 
 .topnav a{
     float: left;
@@ -26,24 +41,29 @@ ul {
     font-size: 20px;
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 30px 50px;
+    padding: 30px 30px;
 }
 
 .topnav a:hover {
     color: #8cbf20;
 }
 
-.vl{
-  border-left: 6px solid grey;
-  height: 40px;
+.vl {
+    border-left: 1px solid grey;
+    height: 30px;
+    position: relative;
+    top: 30px;
 }
+
 
 .banner {
     background-image: url(media/web/banner.jpg);
     background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 75vh;
+    position: relative;
 
     padding: 2vh 2vh 2vh 2vh;
 
@@ -57,5 +77,6 @@ ul {
     background-size: contain;
 
     width: 100%;
-    height: 45%;
+    height: 40%;
+    margin: 13vh 0 0 0 ;
 }
