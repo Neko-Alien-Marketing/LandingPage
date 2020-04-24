@@ -16,7 +16,6 @@ ul {
     background-size: 100% 100%;
     overflow: hidden;
     height: 10vh;
-    position: relative;
 }
 
 .topnav a{
@@ -28,9 +27,6 @@ ul {
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 30px 50px;
-    position: absolute;
-    top: 50%;                         
-   transform: translate(0, -50%) }
 }
 
 .topnav a:hover {
