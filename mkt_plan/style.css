@@ -1,0 +1,101 @@
+ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.parentTop{
+    position: relative;
+    top: -25px;
+    left: 0;
+}
+
+.imageCrema{
+    background-image: url("media/web/crema_logo.jpg");
+    background-size: contain;
+    width: 87px;
+    height: 87px;
+    position: absolute;
+    left: 0px;
+    
+}
+
+.topnav{
+    background-image: url("media/web/NavBar.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    overflow: hidden;
+    height: 96px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.active{
+    color: #8cbf20;
+    background-color: #262626;
+}
+
+.topnav a{
+    float: left;
+    color: dimgrey;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 30px 30px;
+}
+
+.topnav a:hover
+{
+    color: white;
+}
+
+.topnav a:hover:not(.active)
+{
+    color: #8cbf20;
+}
+
+.vl {
+    border-left: 1px solid grey;
+    height: 30px;
+    position: relative;
+    top: 30px;
+}
+
+
+.banner {
+    background-image: url(media/web/banner.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+    position: relative;
+
+    padding: 2vh 2vh 2vh 2vh;
+
+}
+
+.title {
+    background-image: url(media/web/title.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 100%;
+    height: 40%;
+    margin: 13vh 0 0 0 ;
+}
+
+.p{
+    text-align: center;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 40px;
+    background-color: none;
+    color: white;
+    font-style: italic;
+}
