@@ -31,10 +31,6 @@
     width: 100%;
 }
 
-.active {
-    color: #8cbf20;
-    background-color: #262626;
-}
 
 .topnav a {
     float: left;
@@ -45,14 +41,6 @@
     font-weight: 900;
     font-family: 'Roboto Condensed', sans-serif;
     padding: 30px 30px;
-}
-
-.topnav a:hover {
-    color: white;
-}
-
-.topnav a:hover:not(.active) {
-    color: #8cbf20;
 }
 
 .vl {
@@ -125,6 +113,10 @@ a:hover {
     text-decoration-line: none;
 }
 
+a:active{
+    color: #cc7a00;
+}
+
 .row:after {
     content: "";
     display: table;
@@ -184,3 +176,49 @@ img:hover {
     border-color: #ffb544;
     padding: 0px;
 }
+
+.CremaSection{
+
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+
+.aboutCrema {
+    color: white;
+    font-weight: 900;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 50px;
+    padding-top: 15px;
+    padding-left: 170px;
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column2{
+    padding: 20px;
+    float: left;
+}
+
+.left2{
+    width: 22%;
+}
+
+.middle2{
+    width: 35%;
+}
+
+.logoCrema{
+    background-image: url("media/web/crema_logo.jpg");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+
+
+
