@@ -43,6 +43,10 @@
     padding: 30px 30px;
 }
 
+.topnav a:hover {
+    color: #8cbf20;
+}
+
 .vl {
     border-left: 1px solid grey;
     height: 30px;
@@ -113,7 +117,7 @@ a:hover {
     text-decoration-line: none;
 }
 
-a:active{
+a:active {
     color: #cc7a00;
 }
 
@@ -177,11 +181,12 @@ img:hover {
     padding: 0px;
 }
 
-.CremaSection{
-
+.CremaSection {
     background-color: black;
     color: white;
     height: 400px;
+    top: -26px;
+    position: relative;
 }
 
 
@@ -194,31 +199,22 @@ img:hover {
     padding-left: 170px;
 }
 
-.row:after
-{
-    content: "";
-    display: table;
-    clear: both;
-}
-.column2{
-    padding: 20px;
+.column2 {
+    padding: 2%;
     float: left;
 }
 
-.left2{
+.left2 {
     width: 22%;
 }
 
-.middle2{
+.middle2 {
     width: 35%;
 }
 
-.logoCrema{
+.logoCrema {
     background-image: url("media/web/crema_logo.jpg");
     background-size: contain;
     width: 200px;
     height: 200px;
 }
-
-
-
